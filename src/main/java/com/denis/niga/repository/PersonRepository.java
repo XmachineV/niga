@@ -9,6 +9,6 @@ import org.springframework.stereotype.Repository;
  */
 @SuppressWarnings("unused")
 @Repository
-public interface PersonRepository extends com.denis.niga.repository.Repository<Person, Long> {
+public interface PersonRepository extends AbstractRepository<Person, Long> {
 
 }
